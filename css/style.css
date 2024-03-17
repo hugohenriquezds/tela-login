@@ -23,10 +23,11 @@ html,
 body {
   height: 100%;
   background-image: url(../image/image-background.jpg);
+  background-size: cover;
 }
 
 .login {
-  width: 30%;
+  width: 25%;
   min-width: 450px;
   height: 15%;
   min-height: 500px;
@@ -53,7 +54,7 @@ body {
   color: white;
   padding: 20px;
   font-size: 20px;
-  margin-left: 100px;
+  margin-left: 75px;
   margin-top: 20px;
   margin-bottom: -25px;
   font-family: "Righteous", sans-serif;
@@ -86,6 +87,7 @@ body {
   color: white;
   cursor: pointer;
   margin-top: 10px;
+  margin-left: -8%;
 }
 
 .login > button {
